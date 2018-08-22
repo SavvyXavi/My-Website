@@ -1,0 +1,49 @@
+body {
+    background-image: url("images/coffeecomputer1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+.container {
+    font-family: 'Raleway', sans-serif'
+}
+#backgroundContrast {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width:100%;
+    z-index: -5;
+}
+.page-header {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    border-width:10px;
+    text-align: center;
+    border-color:white;
+    border-style: hidden hidden double hidden;
+}
+
+.col-md-8 {
+    color:white;
+}
+
+.img-rounded {
+    align-content: left;
+    height: 300px;
+    width: 250px;   
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    background-color: black;
+    color: white;
+}
+
+#footer {
+    margin: 0px;
+    padding: 0px;
+}
